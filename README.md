@@ -1,4 +1,4 @@
-##CODEBOOK FOR AGGREGATED AVERAGE OF HUMAN ACTIVITY RECOGNITION USING SMARTPHONE’S DATA SET
+## CODEBOOK FOR AGGREGATED AVERAGE OF HUMAN ACTIVITY RECOGNITION USING SMARTPHONE’S DATA SET
 
 The variables in this tidy data set represent aggregated average values of raw data obtained from the Human Activity Recognition Using Smartphone’s Data Set.  The original source data set is obtained at:
 
@@ -14,28 +14,25 @@ The final data set was produced by modifying and transforming the original data 
 
 * Replace numbers designating activities in original data set with descriptive activity names from file named activity_labels.txt.
 
-*Make labels from table more appropriate for the final tidy dataset by using string substitutions and by removing “untidy characters” such as), -, (, _, and coma. 
+* Make labels from table more appropriate for the final tidy dataset by using string substitutions and by removing “untidy characters” such as), -, (, _, and coma. 
 
 * The averages are aggregated for each activity and subject.
 
  
 3) a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md
 
-[1]	subject
+# [1]	subject
 
 This is an id number for each subject.
 	
-	VALUES:		
-
-	Integer value ranging 1 - 30
+	VALUES:	Integer value ranging 1 - 30
 
  
-[2]	trainingLabels
+# [2]	trainingLabels
 
 Descriptive labels for training activities.
 
-	VALUES:
-  
+VALUES:
 	WALKING
 	WALKING_UPSTAIRS
 	WALKING_DOWNSTAIRS
@@ -44,29 +41,43 @@ Descriptive labels for training activities.
 	LAYING
 
                    
-[3]	timeBodyAccMeanX
+# [3]	timeBodyAccMeanX
 
 Time domain aggregate average of X mean acceleration value.
 
+VALUES: normalized and bounded within [-1,1]
 
-[4]	timeBodyAccMeanY
+
+
+# [4]	timeBodyAccMeanY
 
 Time domain aggregate average of Y mean acceleration value.
 
+VALUES: normalized and bounded within [-1,1]
+
+
                   
-[5]	timeBodyAccMeanZ
+# [5]	timeBodyAccMeanZ
 
 Time domain aggregate average of Z mean acceleration value.  
 
+VALUES: normalized and bounded within [-1,1]
+
+
                    
-[6]	timeBodyAccStdX
+# [6]	timeBodyAccStdX
 	
 Time domain aggregate average of X mean acceleration standard deviation value.
+
+VALUES: normalized and bounded within [-1,1]
+
 
                      
 [7]	timeBodyAccStdY
 
 Time domain aggregate average of Y acceleration standard deviation value.
+
+VALUES: normalized and bounded within [-1,1]
 
 
 
@@ -74,36 +85,57 @@ Time domain aggregate average of Y acceleration standard deviation value.
 
 Time domain aggregate average of Z acceleration standard deviation value.
  
+VALUES: normalized and bounded within [-1,1]
+
 
                    
 [9]	timeGravityAccMeanX
 
 Time domain aggregate average of mean X gravity acceleration value.
 
+VALUES: normalized and bounded within [-1,1]
+
+
 
 [10]	timeGravityAccMeanY
 
 Time domain aggregate average of mean y gravity acceleration value.
+
+VALUES: normalized and bounded within [-1,1]
+
 
                 
 [11]	timeGravityAccMeanZ
 
 Time domain aggregate average of mean Z gravity acceleration value.
 
+VALUES: normalized and bounded within [-1,1]
+
+
 
 [12]	timeGravityAccStdX
 
 Time domain aggregate average of X gravity acceleration standard deviation value.
+
+VALUES: normalized and bounded within [-1,1]
+
 
                   
 [13]	timeGravityAccStdY
 
 Time domain aggregate average of Y gravity acceleration standard deviation value.
 
+VALUES: normalized and bounded within [-1,1]
+
+
 
 [14]	timeGravityAccStdZ
 
 Time domain aggregate average of Z gravity acceleration standard deviation value.
+
+VALUES: normalized and bounded within [-1,1]
+
+
                
 [15]	timeBodyAccJerkMeanX
 

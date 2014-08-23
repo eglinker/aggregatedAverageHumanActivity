@@ -1,7 +1,7 @@
 # CODEBOOK FOR AGGREGATED AVERAGE OF HUMAN ACTIVITY RECOGNITION USING SMARTPHONE’S DATA SET
 
 ##  **Introduction**
-The variables in this tidy data set represent aggregated average values of raw data obtained from the Human Activity Recognition Using Smartphone’s Data Set [1].  The original raw data set is obtained at:
+The variables in this tidy data set represent aggregated average values of raw data obtained from the Human Activity Recognition Using Smartphone’s Data Set [1].  The original raw data set was obtained at:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 

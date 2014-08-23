@@ -25,9 +25,10 @@ The final data set was produced by modifying and transforming the original data 
 ### [1]	subject
 
 This is an id number for each subject.
-	
-	VALUES:	Integer value ranging [1,30]
 
+VALUES:	Integer value ranging [1,30]
+
+ 
  
 ### [2]	trainingLabels
 
@@ -39,7 +40,6 @@ VALUES:
 	WALKING_DOWNSTAIRS
 	SITTING
 	STANDING
-	LAYING
 
                    
 ### [3]	timeBodyAccMeanX

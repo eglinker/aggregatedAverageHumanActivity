@@ -1,4 +1,4 @@
-## CODEBOOK FOR AGGREGATED AVERAGE OF HUMAN ACTIVITY RECOGNITION USING SMARTPHONE’S DATA SET
+# CODEBOOK FOR AGGREGATED AVERAGE OF HUMAN ACTIVITY RECOGNITION USING SMARTPHONE’S DATA SET
 
 The variables in this tidy data set represent aggregated average values of raw data obtained from the Human Activity Recognition Using Smartphone’s Data Set.  The original source data set is obtained at:
 
@@ -21,14 +21,14 @@ The final data set was produced by modifying and transforming the original data 
  
 3) a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md
 
-# [1]	subject
+### [1]	subject
 
 This is an id number for each subject.
 	
 	VALUES:	Integer value ranging 1 - 30
 
  
-# [2]	trainingLabels
+### [2]	trainingLabels
 
 Descriptive labels for training activities.
 
@@ -41,7 +41,7 @@ VALUES:
 	LAYING
 
                    
-# [3]	timeBodyAccMeanX
+### [3]	timeBodyAccMeanX
 
 Time domain aggregate average of X mean acceleration value.
 
@@ -49,7 +49,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-# [4]	timeBodyAccMeanY
+### [4]	timeBodyAccMeanY
 
 Time domain aggregate average of Y mean acceleration value.
 
@@ -57,7 +57,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
                   
-# [5]	timeBodyAccMeanZ
+### [5]	timeBodyAccMeanZ
 
 Time domain aggregate average of Z mean acceleration value.  
 
@@ -65,7 +65,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
                    
-# [6]	timeBodyAccStdX
+### [6]	timeBodyAccStdX
 	
 Time domain aggregate average of X mean acceleration standard deviation value.
 
@@ -73,7 +73,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
                      
-[7]	timeBodyAccStdY
+### [7]	timeBodyAccStdY
 
 Time domain aggregate average of Y acceleration standard deviation value.
 

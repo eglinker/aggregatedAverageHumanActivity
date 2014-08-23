@@ -30,7 +30,7 @@ The final data set was produced using running an R language script named run_ana
 
 * The averages are aggregated for each activity and subject.
  
-## **Values of Variables the Tidy Data Set File**
+## **Values of Variables in the Tidy Data Set File**
 
 The values for the variable **subject** are Integer values ranging [1,30]. For **trainingLabels** the values of training labels include WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING.  A other variables are normalized and bounded within [-1,1]
 
@@ -39,11 +39,17 @@ The values for the variable **subject** are Integer values ranging [1,30]. For *
 Follow the directions below to reproduce the tidy data set.
 
 **Step 1.** Make sure to use RStudio version  0.98.994 (for best results)
+
 **Step 2.** Make sure to use R x64 version 3.1.1 (for best results)
+
 **Step 3.** Download data raw data set zip file from link below:
+
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 **Step 4.** Create fresh directory and place the script run_analysis.R in that directory.
+
 **Step 5.** Copy the following raw data files from the raw data zip files into the directory that contains run_analysis.R:
+
 **Step 6.** Start up the RStudio and use it to run the script  run_analysis.R.  This will generate the tidy data set representing averages of data aggregated for each activity and subject.  The output file will be named tidydata.txt
 
 ## Bibliography:

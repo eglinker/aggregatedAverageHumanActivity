@@ -20,7 +20,7 @@ The final data set was produced by modifying and transforming the original data 
 
 * The averages are aggregated for each activity and subject.
  
- ## **Variables and values**
+## **Variables and values**
 
 ### [1]	subject
 

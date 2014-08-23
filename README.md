@@ -53,7 +53,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 **Step 6.** Start up the RStudio and use it to run the script  run_analysis.R.  This will generate the tidy data set representing averages of data aggregated for each activity and subject.  The output file will be named tidydata.txt
 
 ## **License:**
-This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.  This work is a work derived work and as a consequence any commercial use is prohibited due to the licence terms of the raw data source[1].
+This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to ErichGlinker or the authors of the original raw data set or their institutions. Any commercial use is prohibited.  This work is a work derived work and as a consequence any commercial use is prohibited due to the licence terms of the raw data source[1].
 
 ## Bibliography:
 

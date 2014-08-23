@@ -35,10 +35,10 @@ VALUES:	Integer value ranging [1,30]
 Descriptive labels for training activities.
 
 VALUES:
-	WALKING
-	WALKING_UPSTAIRS
-	WALKING_DOWNSTAIRS
-	SITTING
+	WALKING,
+	WALKING_UPSTAIRS,
+	WALKING_DOWNSTAIRS,
+	SITTING,
 	STANDING
 
                    

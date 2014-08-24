@@ -18,7 +18,7 @@ The final data set was produced by modifying and transforming the original data 
 
 * Make labels from table more appropriate for the final tidy dataset by using string substitutions and by removing “untidy characters” such as), -, (, _, and coma. 
 
-** The aggregated averages of the extracted variables are calculated for each activity and subject.
+* The aggregated averages of the extracted variables are calculated for each activity and subject.
 
  
 ## **Variables and Values**

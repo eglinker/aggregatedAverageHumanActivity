@@ -18,10 +18,11 @@ The final data set was produced by modifying and transforming the original data 
 
 * Make labels from table more appropriate for the final tidy dataset by using string substitutions and by removing “untidy characters” such as), -, (, _, and coma. 
 
-* The averages are aggregated for each activity and subject.
+* * The aggregated averages of the extracted variables are calculated for each activity and subject.
+
  
 ## **Variables and Values**
-The variables in the tidy set prefixed with the string “AggAvg” are all aggregate averages of all selected variables for each subject and each activity.
+The variables in the tidy set prefixed with the string “AggAvg” are all aggregate averages of all extracted variables for each subject and each activity.
 
 ### [1]		subject
 

@@ -1,4 +1,4 @@
-# Aggregated Average for Human Activity Recognition Using Smartphones Dataset 
+#Aggregated Average for Human Activity Recognition Using Smartphones Dataset 
 R script and new tidy data file by Erich Glinker.
 
 August 23, 2014
@@ -30,7 +30,7 @@ The final data set was produced using running an R language script named run_ana
 
 * Make labels from table more appropriate for the final tidy dataset by using string substitutions and by removing “untidy characters” such as), -, (, _, and coma. 
 
-* The averages are aggregated for each activity and subject.
+* The aggregated averages of the extracted variables are calculated for each activity and subject.
  
 ## **Values of Variables in the Tidy Data Set File**
 
@@ -52,12 +52,12 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 **Step 5.** Copy the following raw data files from the raw data zip files into the directory that contains run_analysis.R:
 
-**Step 6.** Start up the RStudio and use it to run the script  run_analysis.R.  This will generate the tidy data set representing averages of data aggregated for each activity and subject.  The output file will be named tidydata.txt
+**Step 6.** Start up the RStudio and use it to run the script  run_analysis.R.  This will generate the tidy data set representing averages of data aggregated for each activity and subject.  The output file will be named tidydata.txt.
 
 ## **License:**
-This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to ErichGlinker or the authors of the original raw data set or their institutions. Any commercial use is prohibited.  This work is a work derived work and as a consequence any commercial use is prohibited due to the licence terms of the raw data source[1].
+This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to ErichGlinker or the authors of the original raw data set or their institutions. This work is a work derived work and as a consequence any commercial use is prohibited due to the licence terms of the raw data source[1].
+
 
 ## Bibliography:
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
-

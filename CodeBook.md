@@ -21,28 +21,23 @@ The final data set was produced by modifying and transforming the original data 
 * The averages are aggregated for each activity and subject.
  
 ## **Variables and Values**
+The variables in the tidy set prefixed with the string “AggAvg” are all aggregate averages of all selected variables for each subject and each activity.
 
-### [1]	subject
+### [1]		subject
 
 This is an id number for each subject.
-
-VALUES:	Integer value ranging [1,30]
+	
+	VALUES:	Integer value ranging [1,30]
 
  
- 
-### [2]	trainingLabels
+### [2]		trainingLabels
 
 Descriptive labels for training activities.
 
-VALUES:
-	WALKING,
-	WALKING_UPSTAIRS,
-	WALKING_DOWNSTAIRS,
-	SITTING,
-	STANDING
+VALUES:	WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, 	STANDING, LAYING
 
                    
-### [3]	timeBodyAccMeanX
+### [3]		AggAvgTimeBodyAccMeanX
 
 Time domain aggregate average of X mean acceleration value.
 
@@ -50,7 +45,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [4]	timeBodyAccMeanY
+### [4]		AggAvgTimeBodyAccMeanY
 
 Time domain aggregate average of Y mean acceleration value.
 
@@ -58,7 +53,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
                   
-### [5]	timeBodyAccMeanZ
+### [5]		AggAvgTimeBodyAccMeanZ
 
 Time domain aggregate average of Z mean acceleration value.  
 
@@ -66,7 +61,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
                    
-### [6]	timeBodyAccStdX
+### [6]		AggAvgTimeBodyAccStdX
 	
 Time domain aggregate average of X mean acceleration standard deviation value.
 
@@ -74,7 +69,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
                      
-### [7]	timeBodyAccStdY
+### [7]		AggAvgTimeBodyAccStdY
 
 Time domain aggregate average of Y acceleration standard deviation value.
 
@@ -82,7 +77,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [8]	timeBodyAccStdZ
+### [8]		AggAvgTimeBodyAccStdZ
 
 Time domain aggregate average of Z acceleration standard deviation value.
  
@@ -90,7 +85,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
                    
-### [9]	timeGravityAccMeanX
+### [9]		AggAvgTimeGravityAccMeanX
 
 Time domain aggregate average of mean X gravity acceleration value.
 
@@ -98,7 +93,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [10]	timeGravityAccMeanY
+### [10] 	AggAvgTimeGravityAccMeanY
 
 Time domain aggregate average of mean y gravity acceleration value.
 
@@ -106,7 +101,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
                 
-### [11]	timeGravityAccMeanZ
+### [11] 	AggAvgTimeGravityAccMeanZ
 
 Time domain aggregate average of mean Z gravity acceleration value.
 
@@ -114,7 +109,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [12]	timeGravityAccStdX
+### [12] 	AggAvgTimeGravityAccStdX
 
 Time domain aggregate average of X gravity acceleration standard deviation value.
 
@@ -122,7 +117,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
                   
-### [13]	timeGravityAccStdY
+### [13]	AggAvgTimeGravityAccStdY
 
 Time domain aggregate average of Y gravity acceleration standard deviation value.
 
@@ -130,7 +125,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [14]	timeGravityAccStdZ
+### [14]	AggAvgTimeGravityAccStdZ
 
 Time domain aggregate average of Z gravity acceleration standard deviation value.
 
@@ -138,7 +133,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
                
-### [15]	timeBodyAccJerkMeanX
+### [15]	AggAvgTimeBodyAccJerkMeanX
 
 Time domain aggregate average of mean X acceleration jerk value.
 
@@ -147,7 +142,7 @@ VALUES: normalized and bounded within [-1,1]
 
                    
 
-### [16]	timeBodyAccJerkMeanY        
+### [16]	AggAvgTimeBodyAccJerkMeanY        
 
 Time domain aggregate average of mean y acceleration jerk value.
         
@@ -155,7 +150,7 @@ VALUES: normalized and bounded within [-1,1]
 
                    
 
-### [17]	timeBodyAccJerkMeanZ
+### [17]	AggAvgTimeBodyAccJerkMeanZ
 
 Time domain aggregate average of mean X acceleration jerk value.
 
@@ -164,7 +159,7 @@ VALUES: normalized and bounded within [-1,1]
 
                    
 
-### [18]	timeBodyAccJerkStdX 
+### [18]	AggAvgTimeBodyAccJerkStdX 
 
 Time domain aggregate average of X acceleration jerk standard deviation value.
 
@@ -172,7 +167,7 @@ VALUES: normalized and bounded within [-1,1]
 
               
                 
-### [19]	timeBodyAccJerkStdY
+### [19]	AggAvgTimeBodyAccJerkStdY
 
 Time domain aggregate average of Y acceleration jerk standard deviation value.
 
@@ -180,11 +175,12 @@ VALUES: normalized and bounded within [-1,1]
 
                    
 
-### [20]	timeBodyAccJerkStdZ       
+### [20]	AggAvgTimeBodyAccJerkStdZ       
 
 Time domain aggregate average of Z acceleration jerk standard deviation value.
           
-### [21]	timeBodyGyroMeanX
+
+### [21]	AggAvgTimeBodyGyroMeanX
 
 VALUES: normalized and bounded within [-1,1]
 
@@ -194,7 +190,7 @@ Time domain aggregate average of X gyro mean value.
 
 
 
-### [22]	timeBodyGyroMeanY  
+### [22]	AggAvgTimeBodyGyroMeanY  
 
 Time domain aggregate average of Y gyro mean value.
 
@@ -202,7 +198,7 @@ VALUES: normalized and bounded within [-1,1]
 
                    
 
-### [23]	timeBodyGyroMeanZ
+### [23]	AggAvgTimeBodyGyroMeanZ
 
 Time domain aggregate average of Z gyro mean value.
 
@@ -211,7 +207,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [24]	timeBodyGyroStdX 
+### [24]	AggAvgTimeBodyGyroStdX 
 
 Time domain aggregate average of X gyro standard deviation value.
 
@@ -219,7 +215,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
                    
-### [25]	timeBodyGyroStdY
+### [25]	AggAvgTimeBodyGyroStdY
 
 Time domain aggregate average of Y gyro standard deviation value.
 
@@ -227,13 +223,13 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [26]	timeBodyGyroStdZ    
+### [26]	AggAvgTimeBodyGyroStdZ    
 
 Time domain aggregate average of Z gyro standard deviation value.
 
 
                 
-### [27]	timeBodyGyroJerkMeanX
+### [27]	AggAvgTimeBodyGyroJerkMeanX
 
 Time domain aggregate average of X gyro jerk mean value.
 
@@ -241,7 +237,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [28]	timeBodyGyroJerkMeanY   
+### [28]	AggAvgTimeBodyGyroJerkMeanY   
 
 Time domain aggregate average of Y gyro jerk mean value.
 
@@ -249,7 +245,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
             
-### [29]	timeBodyGyroJerkMeanZ
+### [29]	AggAvgTimeBodyGyroJerkMeanZ
 
 Time domain aggregate average of Z gyro jerk mean value.
 
@@ -257,7 +253,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [30]	timeBodyGyroJerkStdX 
+### [30]	AggAvgTimeBodyGyroJerkStdX 
 
 Time domain aggregate average of X gyro jerk standard deviation value.
 
@@ -265,12 +261,12 @@ VALUES: normalized and bounded within [-1,1]
 
 
                
-### [31]	timeBodyGyroJerkStdY
+### [31]	AggAvgTimeBodyGyroJerkStdY
 
 Time domain aggregate average of Y gyro jerk standard deviation value.
 
 
-### [32]	timeBodyGyroJerkStdZ  
+### [32]	AggAvgTimeBodyGyroJerkStdZ  
 
 Time domain aggregate average of X gyro jerk standard deviation value.
 
@@ -278,7 +274,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
               
-### [33]	timeBodyAccMagMean
+### [33]	AggAvgTimeBodyAccMagMean
 
 Time domain aggregate average of AccMag mean value.
 
@@ -286,7 +282,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [34]	timeBodyAccMagStd  
+### [34]	AggAvgTimeBodyAccMagStd  
 
 Time domain aggregate average of AccMag standard deviation value.
 
@@ -294,7 +290,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
                  
-### [35]	timeGravityAccMagMean
+### [35]	AggAvgtimeGravityAccMagMean
 
 Time domain aggregate average of gravity AccMag mean value.
 
@@ -302,7 +298,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [36]	timeGravityAccMagStd  
+### [36]	AggAvgTimeGravityAccMagStd  
 
 Time domain aggregate average of gravity AccMag standard deviation value.
 
@@ -310,7 +306,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [37]	timeBodyAccJerkMagMean
+### [37]	AggAvgTimeBodyAccJerkMagMean
 
 Time domain aggregate average of AccJerkMag mean value.
 
@@ -318,7 +314,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [38]	timeBodyAccJerkMagStd 
+### [38]	AggAvgTimeBodyAccJerkMagStd 
 
 Time domain aggregate average of AccJerkMag standard deviation value.
 
@@ -326,7 +322,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
               
-### [39]	timeBodyGyroMagMean
+### [39]	AggAvgTimeBodyGyroMagMean
 
 Time domain aggregate average of GyroMag mean value.
 
@@ -334,7 +330,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [40]	timeBodyGyroMagStd 
+### [40]	AggAvgTimeBodyGyroMagStd 
 
 Time domain aggregate average of acceleration standard deviation value.
 
@@ -342,7 +338,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
                  
-### [41]	timeBodyGyroJerkMagMean
+### [41]	AggAvgTimeBodyGyroJerkMagMean
 
 Time domain aggregate average of GyroJerkMag mean value.
 
@@ -350,7 +346,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [42]	timeBodyGyroJerkMagStd
+### [42]	AggAvgTimeBodyGyroJerkMagStd
 
 Time domain aggregate average of GyroJerkMag standard deviation value.
 
@@ -358,7 +354,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
               
-### [43]	frequencyBodyAccMeanX
+### [43]	AggAvgFrequencyBodyAccMeanX
 
 Aggregate average of FFT transformed version of timeBodyAccMeanX.
 
@@ -366,7 +362,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [44]	frequencyBodyAccMeanY   
+### [44]	AggAvgFrequencyBodyAccMeanY   
 
 Aggregate average of FFT transformed version of timeBodyAccMeanY.
 
@@ -374,7 +370,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
             
-### [45]	frequencyBodyAccMeanZ
+### [45]	AggAvgFrequencyBodyAccMeanZ
 
 Aggregate average of FFT transformed version of timeBodyAccMeanZ.
 
@@ -382,7 +378,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [46]	frequencyBodyAccStdX                
+### [46]	AggAvgFrequencyBodyAccStdX                
 
 Aggregate average of FFT transformed version of timeBodyAccStdX.
 
@@ -390,7 +386,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [47]	frequencyBodyAccStdY
+### [47]	AggAvgfrequencyBodyAccStdY
 
 Aggregate average of FFT transformed version of timeBodyAccStdY.
 
@@ -398,7 +394,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [48]	frequencyBodyAccStdZ                
+### [48]	AggAvgFrequencyBodyAccStdZ                
 
 Aggregate average of FFT transformed version of timeBodyAccStdZ.
 
@@ -406,7 +402,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [49]	frequencyBodyAccMeanFreqX
+### [49]	AggAvgFrequencyBodyAccMeanFreqX
 
 Aggregate average of FFT transformed version of timeBodyAccMeanFreqX.
 
@@ -414,7 +410,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [50]	frequencyBodyAccMeanFreqY           
+### [50]	AggAvgFrequencyBodyAccMeanFreqY           
 
 Aggregate average of FFT transformed version of timeBodyAccMeanFreqY.
 
@@ -422,7 +418,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [51]	frequencyBodyAccMeanFreqZ
+### [51]	AggAvgFrequencyBodyAccMeanFreqZ
 
 Aggregate average of FFT transformed version of timeBodyAccMeanFreqZ.
 
@@ -430,7 +426,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [52]	frequencyBodyAccJerkMeanX           
+### [52]	AggAvgFrequencyBodyAccJerkMeanX           
 
 Aggregate average of FFT transformed version of timeBodyAccJerkMeanX.
 
@@ -438,7 +434,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [53]	frequencyBodyAccJerkMeanY
+### [53]	AggAvgFrequencyBodyAccJerkMeanY
 
 Aggregate average of FFT transformed version of timeBodyAccJerkMeanY.
 
@@ -446,14 +442,14 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [54]	frequencyBodyAccJerkMeanZ
+### [54]	AggAvgFrequencyBodyAccJerkMeanZ
 
 Aggregate average of FFT transformed version of timeBodyAccJerkMeanZ.
 
 VALUES: normalized and bounded within [-1,1]
 
 
-### [55]	frequencyBodyAccJerkStdX
+### [55]	AggAvgFrequencyBodyAccJerkStdX
 
 Aggregate average of FFT transformed version of timeBodyAccJerkStdX.
 
@@ -461,7 +457,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [56]	frequencyBodyAccJerkStdY            
+### [56]	AggAvgFrequencyBodyAccJerkStdY            
 
 Aggregate average of FFT transformed version of timeBodyAccJerkStdY.
 
@@ -469,7 +465,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [57]	frequencyBodyAccJerkStdZ
+### [57]	AggAvgFrequencyBodyAccJerkStdZ
 
 Aggregate average of FFT transformed version of timeBodyAccJerkStdZ.
 
@@ -477,7 +473,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [58]	frequencyBodyAccJerkMeanFreqX       
+### [58]	AggAvgFrequencyBodyAccJerkMeanFreqX       
 
 Aggregate average of FFT transformed version of timeBodyAccJerkMeanFreqX.
 
@@ -485,19 +481,19 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [59]	frequencyBodyAccJerkMeanFreqY
+### [59]	AggAvgFrequencyBodyAccJerkMeanFreqY
 
 Aggregate average of FFT transformed version of timeBodyAccJerkMeanFreqY.
 
 VALUES: normalized and bounded within [-1,1]
 
 
-### [60]	frequencyBodyAccJerkMeanFreqZ       
+### [60]	AggAvgFrequencyBodyAccJerkMeanFreqZ       
 
 Aggregate average of FFT transformed version of timeBodyAccJerkMeanFreqZ.
 
 
-### [61]	frequencyBodyGyroMeanX
+### [61]	AggAvgFrequencyBodyGyroMeanX
 
 Aggregate average of FFT transformed version of timeBodyGyroMeanX.
 
@@ -505,7 +501,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [62]	frequencyBodyGyroMeanY              
+### [62]	AggAvgfrequencyBodyGyroMeanY              
 
 Aggregate average of FFT transformed version of timeBodyGyroMeanY.
 
@@ -513,7 +509,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [63]	frequencyBodyGyroMeanZ
+### [63]	AggAvgFrequencyBodyGyroMeanZ
 
 Aggregate average of FFT transformed version of timeBodyGyroMeanZ.
 
@@ -521,7 +517,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [64]	frequencyBodyGyroStdX               
+### [64]	AggAvgFrequencyBodyGyroStdX               
 
 Aggregate average of FFT transformed version of timeBodyGyroStdX.
 
@@ -529,7 +525,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [65]	frequencyBodyGyroStdY
+### [65]	AggAvgFrequencyBodyGyroStdY
 
 Aggregate average of FFT transformed version of timeBodyGyroStdY.
 
@@ -537,7 +533,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [66]	frequencyBodyGyroStdZ               
+### [66]	AggAvgFrequencyBodyGyroStdZ               
 
 Aggregate average of FFT transformed version of timeBodyGyroStdZ.
 
@@ -545,7 +541,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [67]	frequencyBodyGyroMeanFreqX
+### [67]	AggAvgFrequencyBodyGyroMeanFreqX
 
 Aggregate average of FFT transformed version of timeBodyGyroMeanFreqX.
 
@@ -553,7 +549,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [68]	frequencyBodyGyroMeanFreqY          
+### [68]	AggAvgFrequencyBodyGyroMeanFreqY          
 
 Aggregate average of FFT transformed version of time BodyGyroMeanFreqY.  
 
@@ -561,7 +557,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [69]	frequencyBodyGyroMeanFreqZ
+### [69]	AggAvgFrequencyBodyGyroMeanFreqZ
 
 Aggregate average of FFT transformed version of timeBodyGyroMeanFreqZ.
 
@@ -569,7 +565,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [70]	frequencyBodyAccMagMean             
+### [70]	AggAvgFrequencyBodyAccMagMean             
 
 Aggregate average of FFT transformed version of timeBodyAccMagMean.
 
@@ -577,7 +573,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [71]	frequencyBodyAccMagStd
+### [71]	AggAvgFrequencyBodyAccMagStd
 
 Aggregate average of FFT transformed version of timeBodyAccMagStd.
 
@@ -585,7 +581,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [72]	frequencyBodyAccMagMeanFreq         
+### [72]	AggAvgFrequencyBodyAccMagMeanFreq         
 
 Aggregate average of FFT transformed version of timeBodyAccMagMeanFreq.
 
@@ -593,7 +589,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [73]	frequencyBodyBodyAccJerkMagMean
+### [73]	AggAvgFrequencyBodyBodyAccJerkMagMean
 
 Aggregate average of FFT transformed version of timeBodyBodyAccJerkMagMean.
 
@@ -601,7 +597,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [74]	frequencyBodyBodyAccJerkMagStd      
+### [74]	AggAvgFrequencyBodyBodyAccJerkMagStd      
 
 Aggregate average of FFT transformed version of timeBodyBodyAccJerkMagStd.
 
@@ -609,7 +605,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [75]	frequencyBodyBodyAccJerkMagMeanFreq
+### [75]	AggAvgFrequencyBodyBodyAccJerkMagMeanFreq
 
 Aggregate average of FFT transformed version of timeBodyBodyAccJerkMagMeanFreq.
 
@@ -617,7 +613,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [76]	frequencyBodyBodyGyroMagMean        
+### [76]	AggAvgFrequencyBodyBodyGyroMagMean        
 
 Aggregate average of FFT transformed version of timeBodyBodyGyroMagMean  
 
@@ -625,7 +621,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [77]	frequencyBodyBodyGyroMagStd
+### [77]	AggAvgFrequencyBodyBodyGyroMagStd
 
 Aggregate average of FFT transformed version of timeBodyBodyGyroMagStd.
 
@@ -633,7 +629,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [78]	frequencyBodyBodyGyroMagMeanFreq    
+### [78]	AggAvgFrequencyBodyBodyGyroMagMeanFreq    
 
 Aggregate average of FFT transformed version of timeBodyBodyGyroMagMeanFreq.
 
@@ -641,7 +637,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [79]	frequencyBodyBodyGyroJerkMagMean
+### [79]	AggAvgFrequencyBodyBodyGyroJerkMagMean
 
 Aggregate average of FFT transformed version of timeBodyBodyGyroJerkMagMean.
 
@@ -649,7 +645,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [80]	frequencyBodyBodyGyroJerkMagStd 
+### [80]	AggAvgFrequencyBodyBodyGyroJerkMagStd 
 
 Aggregate average of FFT transformed version of timeBodyBodyGyroJerkMagStd.
 
@@ -657,7 +653,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
     
-### [81]	frequencyBodyBodyGyroJerkMagMeanFreq
+### [81]	AggAvgFrequencyBodyBodyGyroJerkMagMeanFreq
 
 Aggregate average of FFT transformed version of timeBodyBodyGyroJerkMagMeanFreq.
 
@@ -665,7 +661,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [82]	angletBodyAccMeanGravity            
+### [82]	AggAvgAngletBodyAccMeanGravity            
 
 Aggregate average of angletBodyAccMeanGravity from original data set.
 
@@ -673,7 +669,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [83]	angletBodyAccJerkMeanGravityMean
+### [83]	AggAvgAngletBodyAccJerkMeanGravityMean
 
 Aggregate average of angletBodyAccJerkMeanGravityMean from original data set.
 
@@ -681,7 +677,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [84]	angletBodyGyroMeanGravityMean       
+### [84]	AggAvgAngletBodyGyroMeanGravityMean       
 
 Aggregate average of angletBodyGyroMeanGravityMean from original data set.
 
@@ -689,7 +685,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [85]	angletBodyGyroJerkMeanGravityMean
+### [85]	AggAvgAngletBodyGyroJerkMeanGravityMean
 
 Aggregate average of angletBodyGyroJerkMeanGravityMean from original data set.
 
@@ -697,7 +693,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [86]	angleXGravityMean                   
+### [86]	AggAvgAngleXGravityMean                   
 
 Aggregate average of angleXGravityMean from original data set.
 
@@ -705,7 +701,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [87]	angleYGravityMean
+### [87]	AggAvgAngleYGravityMean
 
 Aggregate average of angleYGravityMean from original data set.
 
@@ -713,7 +709,7 @@ VALUES: normalized and bounded within [-1,1]
 
 
 
-### [88]	angleZGravityMean  
+### [88]	AggAvgAngleZGravityMean  
 
 Aggregate average of angleZGravityMean from original data set.
 

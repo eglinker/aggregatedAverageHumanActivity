@@ -94,15 +94,16 @@ for(i in 1:2){
 allNames <- sub("mean", "Mean", allNames, ignore.case =FALSE, fixed=TRUE)
 allNames <- sub("std", "Std", allNames, ignore.case =FALSE, fixed=TRUE)
 allNames <- sub("gravity", "Gravity", allNames, ignore.case =FALSE, fixed=TRUE)
+allNames <- sub("angle", "Angle", allNames, ignore.case =FALSE, fixed=TRUE)
 
 for(i in 1:length(names(allRawData))){
   if(substr(allNames[i],1,1)=="t" & substr(allNames[i],1,5)!="train"){
-    allNames[i] <-(paste("time"
+    allNames[i] <-(paste("Time"
                     ,(substr(allNames[i],start=2,stop=nchar(allNames[i])))
                     , sep = ""))
   }   
   else if(substr(allNames[i],1,1)=="f"){
-    allNames[i] <-(paste("frequency"
+    allNames[i] <-(paste("Frequency"
                          ,(substr(allNames[i],start=2,stop=nchar(allNames[i])))
                          , sep = ""))
   }     
@@ -123,6 +124,10 @@ SecondTidyDataSet <- aggregate(allRawData[,1:1:(length(allRawData)-2)]
 # SecondTidyDataSet <- aggregate(allRawData[,4:6]
 #                 , list(subject=allRawData$subject ,trainingLabels=allRawData$trainingLabels)
 #                 , mean)
+
+# Update column names to refect their aggregate nature.
+names(SecondTidyDataSet)[3:(length(allRawData))] <- paste("AggAvg"
+                                , names(SecondTidyDataSet)[3:(length(allRawData))], sep = "")
 
 ## Store the tidy data set in a file.
 print("Storing Step 5 tidy data (this is the final data set)")
